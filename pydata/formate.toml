@@ -1,0 +1,13 @@
+[hooks]
+reformat-generics = 40
+collections-import-rewrite = 20
+noqa-reformat = 60
+dynamic_quotes = 70
+
+[hooks.isort]
+priority = 50
+
+[hooks.isort.kwargs]
+multi_line_output = 8
+use_parentheses = true
+remove_redundant_aliases = true
